@@ -1,5 +1,6 @@
+//Vamos a hacer un programa que lea una palabra y lea las vocales.
 #include<iostream>
-//Vamos a hacer un programa que lea una palabra y me cambie las vocales por u
+
 int devuelve_longitud(char palabra[]){
     int longitud=0;//Variable acumuladora
     int cont=0;
@@ -26,5 +27,8 @@ int main(){
                                }
     std::cout<<"\n";
     std::cout<<"Palabra troleada: " <<palabra;
+    std::cout<<"\n";
+    std::cout<< nvocales;
+    
     std::cin>>salir;
     }
